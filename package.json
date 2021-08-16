@@ -1,0 +1,22 @@
+{
+  "name": "@lootbox/library-radio",
+  "version": "1.0.0",
+  "description": "Adds SHOUTcast radio stations and genres to Library",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lootbox/lootbox.git"
+  },
+  "author": "lootbox <lootboxproject@protonmail.com> (http://github.com/lootbox)",
+  "license": "MIT",
+  "dependencies": {
+    "icecast-parser": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/lootbox/lootbox/issues"
+  },
+  "homepage": "https://github.com/lootbox/lootbox#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
