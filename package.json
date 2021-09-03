@@ -1,25 +1,25 @@
 {
-  "name": "@lootbox/library-radio",
+  "name": "@royalarchives/catalog-radio",
   "version": "1.0.0",
-  "description": "Adds SHOUTcast radio stations and genres to Library",
+  "description": "Adds SHOUTcast radio stations and genres to Catalog",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lootbox/lootbox.git"
+    "url": "git+https://github.com/server/server.git"
   },
-  "author": "lootbox <lootboxproject@protonmail.com> (http://github.com/lootbox)",
+  "author": "server <serverproject@protonmail.com> (http://github.com/server)",
   "license": "MIT",
   "dependencies": {
     "icecast-parser": "^4.0.2"
   },
   "bugs": {
-    "url": "https://github.com/lootbox/lootbox/issues"
+    "url": "https://github.com/server/server/issues"
   },
-  "homepage": "https://github.com/lootbox/lootbox#readme",
+  "homepage": "https://github.com/server/server#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "lootbox": {
+  "server": {
     "description": "Adds SHOUTcast radio station genres and streaming",
     "icon": "microphone"
   }

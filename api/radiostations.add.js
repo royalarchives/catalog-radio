@@ -1,10 +1,10 @@
-module.exports = (library, options) => {
-  library.radioStations.push({
+module.exports = (catalog, options) => {
+  catalog.radioStations.push({
     type: 'station',
-    id: `radio_${library.radioStations.length + 1}`,
+    id: `radio_${catalog.radioStations.length + 1}`,
     title: options.title,
     url: options.url
   })
-  library.indexArray([library.radioStations[library.radioStations.length - 1]])
-  library.writeSupplementalData()
+  catalog.indexArray([catalog.radioStations[catalog.radioStations.length - 1]])
+  catalog.writeSupplementalData()
 }
