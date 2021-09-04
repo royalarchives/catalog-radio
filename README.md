@@ -1,6 +1,6 @@
 # Library: Radio
 
-A module for [Library](https://github.com/server/library) that adds SHOUTcast radio station genre browsing and streaming.
+A module for [Library](https://github.com/royalarchives/library) that adds SHOUTcast radio station genre browsing and streaming.
 
 ### Documentation
 
@@ -14,11 +14,11 @@ First install the module with `NPM`:
 
     $ npm install @royalarchives/library-radio
 
-If you are using [Library](https://github.com/server/library) from the command-line include the module name in your arguments:
+If you are using [Library](https://github.com/royalarchives/library) from the command-line include the module name in your arguments:
 
     $ node scanner.js @royalarchives/library-radio /path/to/files
 
-If you are using [Library](https://github.com/server/library) with NodeJS include the module name in the parameters:
+If you are using [Library](https://github.com/royalarchives/library) with NodeJS include the module name in the parameters:
 
     const Library = require('@royalarchives/library')
     await Library.scan(['@royalarchives/library-radio'], ['/path/to/files'])

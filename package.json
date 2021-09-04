@@ -1,21 +1,21 @@
 {
   "name": "@royalarchives/catalog-radio",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Adds SHOUTcast radio stations and genres to Catalog",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/server/server.git"
+    "url": "git+https://github.com/royalarchives/server.git"
   },
-  "author": "server <serverproject@protonmail.com> (http://github.com/server)",
+  "author": "server <serverproject@protonmail.com> (http://github.com/royalarchives)",
   "license": "MIT",
   "dependencies": {
     "icecast-parser": "^4.0.2"
   },
   "bugs": {
-    "url": "https://github.com/server/server/issues"
+    "url": "https://github.com/royalarchives/server/issues"
   },
-  "homepage": "https://github.com/server/server#readme",
+  "homepage": "https://github.com/royalarchives/server#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
