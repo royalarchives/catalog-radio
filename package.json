@@ -1,6 +1,6 @@
 {
   "name": "@royalarchives/catalog-radio",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adds SHOUTcast radio stations and genres to Catalog",
   "main": "index.js",
   "repository": {
