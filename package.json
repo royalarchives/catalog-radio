@@ -20,6 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "royalArchives": {
+    "type": "catalog",
     "description": "Adds SHOUTcast radio station genres and streaming",
     "icon": "microphone"
   }
